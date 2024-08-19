@@ -30,12 +30,17 @@ Al seleccionar el curso en LiaScript, encontrará una tabla de contenido a la iz
 GitHub
 ----
 
-Si, por otro lado, está leyendo esto en LiaScript pero le gustaría verlo en GitHub (por ejemplo, para hacer un fork o clonar este repositorio), por favor visite https://github.com/pm0kjp/congreso_2024. 
+Si, por otro lado, está leyendo esto en LiaScript pero le gustaría verlo en GitHub (por ejemplo, para hacer un fork o clonar este repositorio), por favor visite [https://github.com/pm0kjp/congreso_2024](https://github.com/pm0kjp/congreso_2024). 
 
 Sobre la Autora 
 ------
 
-Joy Payton es una científica de datos docente y supervisora de educación en datos en el Children's Hospital of Philadelphia, donde lidera un equipo que enseña métodos computacionales reproducibles a profesionales biomédicos con el fin de avanzar en sus investigaciones.
+Joy Payton es una científica de datos docente y supervisora de educación en datos en el Children's Hospital of Philadelphia (CHOP), donde lidera un equipo que enseña métodos computacionales reproducibles a profesionales biomédicos con el fin de avanzar en sus investigaciones.
+
+Además de su trabajo proporcionando educación en ciencia de datos, Joy también forma parte del equipo de Informática en Salud Global en CHOP. En ese rol, aboga por enfoques de ciencia de datos que aceleren el desarrollo de un enfoque descolonizado, interdependiente y mutuamente beneficioso para la salud global. Le apasiona ayudar a los investigadores y clínicos a llevar a cabo la salud global de una manera participativa, no extractiva y no explotadora, que respete y amplifique las voces de los expertos locales, incluidos los pacientes, los miembros de la comunidad y los expertos en salud e informática.
+
+Puede contactarla a través de su LinkedIn: [https://www.linkedin.com/in/joypayton/](https://www.linkedin.com/in/joypayton/).
+
 
 ## Contenido y Objetivos
 
@@ -52,6 +57,7 @@ Al finalizar estos talleres, los participantes habrán ganado mayor confianza en
 * Comprender cómo la IA y el aprendizaje automático se integran en el ámbito de la medicina.
 * Manejar la terminología y los conceptos clave relacionados con la IA y el aprendizaje automático.
 * Identificar fuentes de información confiables.
+* Examinar y crear notebooks (cuadernos).
 * Realizar búsquedas autónomas y convertirse en autodidactas según sus propios intereses.
 
 ## IA y radiología
@@ -62,7 +68,7 @@ Luego, en su tiempo libre, lea un manuscrito publicado recientemente que ofrezca
 
 Costa, E. D., Gaêta-Araujo, H., Carneiro, J. A., Zancan, B. A. G., Baranauskas, J. A., Macedo, A. A., & Tirapelli, C. (2024). "Development of a dental digital data set for research in artificial intelligence: The importance of labeling performed by radiologists." *Oral Surgery, Oral Medicine, Oral Pathology and Oral Radiology*, 138(1), 205–213. https://doi.org/10.1016/j.oooo.2023.12.006
 
-En este manuscrito, publicado en julio de 2024, un equipo brasileño describa la importancia de los radiologos: 
+En este manuscrito, publicado en julio de 2024, un equipo brasileño describa la importancia de los radiologos:
 
 > La mayoría de los modelos de IA aplicados a las imágenes médicas utilizan un conjunto de imágenes radiográficas etiquetadas para el aprendizaje supervisado, lo que implica el reconocimiento de patrones en las imágenes y el desarrollo de modelos matemáticos para realizar predicciones o tomar decisiones a partir de un nuevo conjunto de datos. 
 >
@@ -72,11 +78,11 @@ En este manuscrito, publicado en julio de 2024, un equipo brasileño describa la
 >
 > ... 
 >
-Sin embargo, cabe señalar que la investigación propone que la IA no reemplazará al radiólogo, sino que se utilizará como una herramienta para asistir el trabajo del radiólogo.
+> Sin embargo, cabe señalar que la investigación propone que la IA no reemplazará al radiólogo, sino que se utilizará como una herramienta para asistir el trabajo del radiólogo.
 >
-> ... 
+> ...  
 >
-La contribución de los radiólogos en la investigación con IA también ocurre en la curaduría de datos, es decir, en la selección y estandarización del formato de las imágenes, el mantenimiento y la gestión del banco de imágenes radiográficas, incluyendo la anonimización de los datos de los pacientes.
+> La contribución de los radiólogos en la investigación con IA también ocurre en la curaduría de datos, es decir, en la selección y estandarización del formato de las imágenes, el mantenimiento y la gestión del banco de imágenes radiográficas, incluyendo la anonimización de los datos de los pacientes.
 
 ##  Modelos Grandes de Lenguaje Grande 
 
@@ -99,7 +105,6 @@ En su artículo "Ethical and social risks of harm from Language Models," Weiding
 ------
 
 Los peligros de la información pueden causar daño al compartir información **verdadera**. Debido a que los datos de entrenamiento proporcionados a los LLM son tan vastos, hay casos en que los LLM filtran información privada, como direcciones de un domicilio privado. Además, los LLM pueden inferir y revelar correctamente información confidencial mientras acumulan y resumen datos (por ejemplo, desvelar con precisión el diagnóstico de una enfermedad grave a un usuario no preparado que le pregunta sobre sus síntomas).
-
 
 3. Daños por la desinformación
 --------
@@ -127,35 +132,23 @@ El entrenamiento de los LLM requiere una cantidad significativa de energía (lo 
 
 ### Ejercicio práctico: Acceder a ChatGPT sin cuenta 
 
-ChatGPT es un ejemplo de un modelo de lenguaje grande utilizado como **agente conversacional** (o **chatbot**).  La empresa propietaria, OpenAI, permite su uso (de manera limitada) de forma gratuita y sin necesidad de crear una cuenta en el sitio web https://chatgptx.es.  
+ChatGPT es un ejemplo de un modelo de lenguaje grande utilizado como **agente conversacional** (o **chatbot**).  La empresa propietaria, OpenAI, permite su uso (de manera limitada) de forma gratuita y sin necesidad de crear una cuenta en el sitio web https://chatgpt.com/.  
 
 Menciono ChatGPT  aquí, no porque sea el mejor de los grandes modelos de lenguaje, sino porque su interfaz es sencilla y accesible para principiantes.
 
-**Aviso: Es posible que los servicios para quienes no son titulares de cuentas **sean lentos o estén limitados**, en cuyo caso verá un mensaje como el que se muestra a continuación.  En tal situación, es fácil crear una cuenta gratuita usando las opciones "iniciar sesión" y "Registrarse."**
+**Aviso: Es posible que los servicios para quienes no son titulares de cuentas sean lentos o estén limitados.  En tal situación, o si prefiere guardar los chats para referir a ellos más adelante, es fácil crear una cuenta gratuita usando las opciones "Subscríbete" en la esquina superior derecha.**
 
------
-![Mensaje que dice: Por favor, intente de nuevo en unos momentos. El límite de solicitudes por minuto acaba de alcanzarse debido a un alto número de solicitudes simultáneas. Los usuarios registrados comparten una interfaz separada gratuitamente y reciben diariamente 50,000 tokens GPT-4o mini tokens.](media/servicio_limitado.png)
------
-
-Para "conversar", solo hay que escribir un prompt en la caja que dice "Formule su pregunta aquí."  Sin embargo, antes de ingresar un prompt, es importante comprender que sucederá con los información trasmitida.
+Para "conversar", solo hay que escribir un prompt en la caja que dice "Envía un mensaje a ChatGPT."  Sin embargo, antes de ingresar un prompt, es importante comprender que sucederá con los información trasmitida.
 
 ### Ejercicio práctico: Entender las Políticas de OpenAI y ChatGPT
 
-Lea la política de privacidad, en particular el punto número 3, en https://chatgptx.com/blog/es/privacidad/. 
+Lea la política de privacidad, en [https://openai.com/es-US/policies/privacy-policy/](https://openai.com/es-US/policies/privacy-policy/).
 
-> 3) Recogida y almacenamiento de datos
->
-> Cuando utiliza nuestro sitio web, almacenamos su historial de chat. Esto le permite acceder a sus conversaciones anteriores. Además, utilizamos los datos almacenados para mejorar la calidad de nuestro servicio y adaptarlo a las necesidades individuales de nuestros usuarios. Los tipos exactos de datos que recogemos son:
->
-> * Los datos de su cuenta, incluidos su nombre de usuario, dirección de correo electrónico y dirección IP.
-> * Tu historial de chat.
-> * Datos de transacción de PayPal si se adquiere un paquete de fichas.
-
-Debido a que muchos chatbot (incluido ChatGPT) almacenan los prompts y los datos de los usuarios y las utilizan para refinar aún más sus modelos, es posible que la información que envíe en un chat pueda crear un peligro de información futuro a través de un incidente de filtración de información. Por este motivo, **nunca debe proporcionar información privada en un mensaje de chat**, incluida información de identificación personal, información sobre pacientes o participantes en investigaciones, secretos comerciales, etc.
+Debido a que muchos chatbot (incluido ChatGPT) almacenan los **prompts** (los mensajes que ingresa el usuario) y los datos de los usuarios y las utilizan para refinar aún más sus modelos, es posible que la información que envíe en un chat pueda crear un peligro de información futuro a través de un incidente de filtración de información. Por este motivo, **nunca debe proporcionar información privada en un mensaje de chat**, incluida información de identificación personal, información sobre pacientes o participantes en investigaciones, secretos comerciales, etc.
 
 **Si desea utilizar un LLM como herramienta en el ámbito de la investigación o la medicina, debe utilizar un LLM local (como Llama, que se distribuye de forma gratuita y puede ser implementado dentro del sistema informático de su organización).**
 
-También es recomendable leer los Términos y Condiciones en https://chatgptx.com/blog/es/terminos/ y las Condiciones de Uso en https://openai.com/es-ES/policies/terms-of-use/.  En éste último, se lee, entre otras cosas, lo siguiente:
+También es recomendable leer los Términos y Condiciones en [https://openai.com/es-US/policies/terms-of-use/](https://openai.com/es-US/policies/terms-of-use/).  En éste documento, se lee, entre otras cosas, lo siguiente:
 
 > * El Output puede no ser siempre exacto. No considere que el Output de nuestros Servicios es la única fuente de información veraz o fáctica, ni un sustituto del asesoramiento profesional. 
 > * Debe evaluar la exactitud e idoneidad del Output en relación con su caso de uso concreto, incluyendo mediante la realización de una revisión por medios humanos, en su caso, antes de utilizar o compartir el Output de los Servicios.
@@ -207,7 +200,7 @@ Prompt: "Escriba una breve carta de recomendación para mi asistente de investig
 
 Subrayamos de nuevo: ésta es un área en la que los usuarios deben tener especial cuidado. Evite divulgar de manera inadvertida datos sensibles, descripciones estadísticas de sus datos, esquemas de bases de datos u otra información potencialmente confidencial.
 
-Prompt: "Usando el código R de tidyverse, escriba un código que tomará una columna de marco de datos llamada 'id' y la dividirá en dos columnas llamadas 'id_paciente' y 'numero_muestra'. Los datos en la columna 'id' tienen estos dos valores separados por un guión bajo."
+Prompt: "Usando el código R de tidyverse, escriba un código que tomará una columna de marco de datos llamada 'id' y la dividirá en dos columnas llamadas 'id\_paciente' y 'numero\_muestra'. Los datos en la columna 'id' tienen estos dos valores separados por un guión bajo."
 
 **Preguntas:**
 
@@ -226,10 +219,6 @@ Tenga en cuenta que todo lo que se genere utilizando un LLM no tiene garantía d
 
 Además, tenga en cuenta que algunas publicaciones prohíben expresamente el uso de LLM para contribuir con lenguaje a manuscritos. No cumplir con estas restricciones puede tener consecuencias profesionales serias y desagradables.
 
-
-•	Read terms of use: https://chatgpt.es/terminos-y-condiciones/
-
- 
 
 ## IA y Aprendizaje Automático en Medicina: Manuscritos
 
@@ -320,8 +309,34 @@ Trate de responder las siguientes preguntas:
 * ¿Puede encontrar "notebooks" o código de ejemplo que muestren cómo utilizar uno de estos modelos?
 * ¿Puede encontrar una "model card" (ficha o "tarjeta" que describa el modelo) que incluya detalles importantes sobre el modelo, como el tipo de licencia, quién lo creó, una descripción, etc.?
 
-## Notebooks / Cuadernos
+## Notebooks / Cuadernos de Colab
 
+¿Qué es un **cuaderno Colab** de Google? Es un servicio alojado de Jupyter Notebook que no requiere configuración y que ofrece acceso gratuito a recursos de computación.
 
+¿Y qué, entonces, es **Jupyter Notebook**?  Es un programa que facilita la creacion de scripts de analisis de datos en las cuales cada paso que tomas es grabado cuidadosamente.  Es una forma de "[programación estadistica literaria](https://es.wikipedia.org/wiki/Programaci%C3%B3n_literaria)," donde no solo recuerdas los pasos tecnicos que haces (la programación estadistica que haces en lenguajes como **Ju**lia, **Pyt**hon, o **R** -- nota que estos tres lenguajes forman "Jupyter") sino tambien escribas en sus proprias palabras que vas a hacer y por que.
 
+Por ejemplo, esta misma "celda" que estas leyendo ahora es un "celda" textual donde escribo yo no en Python u otra lenguaje de programacion, sino en castellano, como si fuera un documento Word.
+
+Los cuadernos provienen del mundo de los laboratorios y la practica de notar cada paso, cada reagent, cada ingrediente y accion en un experimento.  Y siguen siendo utiles para la replicabilidad hoy en dia, en el ambito de los analises de datos.
+
+Los cuadernos de Jupyter son usados en todo el mundo, por muchos ambitos como la medicina, fisica, matematicas, negocios, entretenimiento, y mucho mas.  De hecho, puedes buscar "cuaderno jupyter ejemplo radiologia" o "cuaderno colab ejemplo radiologia" o semejantes búsquedas, para encontrar cuadernos escritos y compartidos por otros.  Puede ser que encontrarias mas buscando en inglés, pero aun en castellano encontrarás muchos ejemplos.
+
+Cuando creas un cuaderno en Google Colab, no tienes que utilizar las capacidades de tu propio ordenador para llevar a cabo tus analises.  Esto significa que puedes aprovechar de estos cuadernos aun desde un ordenador con pocas fuerzas, como un Chromebook.  
+
+Además, con Colab, no tienes que instalar Jupyter Notebook, ni Python -- !con solo tener una cuenta de Google (y ya la tienes si tienes un correo Gmail), puedes usar este servicio gratuito!
+
+Para leer más, ve a https://research.google.com/colaboratory/intl/es/faq.html.
+
+### Ejercicio práctico: Copiar un cuaderno
+
+**Necesitarás lo siguiente para empezar:**
+
+* Una computadora que te permita acceder a https://colab.research.google.com (algunas organizaciones bloquean los sitios de Google, por lo que tal vez necesites una computadora personal y no una de la empresa).  
+
+Pasos:
+
+* Acede a https://colab.research.google.com/drive/1TPNM_vuI_aG0l1f0cUKZH7scDVH6Lvmh?hl=es#scrollTo=g6x9ru9GivN6.
+* Si ya tiene cuenta de Google (i.e. una cuenta de gmail), inicie una sesión en Google si aún no lo han hecho.  Si no tienes cuenta de Google, apuntese para poder proceder con el taller.  Esto es el "Paso 1".
+* Haga una copia del cuaderno para que tenga una copia propia.  Esto es el "Paso 2".
+* Por fin, haga un doble clic para ver Markdown y como algunos símbolos como `#`, `*`, `\``, y `[texto](vinculo)` pueden cambiar la apariencia del texto.
 
