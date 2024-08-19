@@ -14,7 +14,6 @@ Este documento ha sido escrito para acompañar dos talleres impartidos por Joy P
 
 Por favor, comparta estos materiales como considere más conveniente.
 
-
 -------
 
 LiaScript 
@@ -24,9 +23,14 @@ El documento que está leyendo está alojado en GitHub, pero se visualiza de man
 
 Si está leyendo esto dentro de GitHub y prefiere verlo como un documento interactivo de LiaScript, haga clic en el siguiente enlace:
 
-[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://cnn.coms)
+[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/pm0kjp/congreso_2024/main/README.md#1)
 
 Al seleccionar el curso en LiaScript, encontrará una tabla de contenido a la izquierda y botones de control en la esquina superior derecha, los cuales le permiten ajustar el tamaño de la fuente y otras opciones de apariencia. Los controles de paginación están ubicados en la parte inferior de la página.
+
+GitHub
+----
+
+Si, por otro lado, está leyendo esto en LiaScript pero le gustaría verlo en GitHub (por ejemplo, para hacer un fork o clonar este repositorio), por favor visite https://github.com/pm0kjp/congreso_2024. 
 
 Sobre la Autora 
 ------
