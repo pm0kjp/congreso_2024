@@ -49,8 +49,8 @@ En el transcurso de dos talleres, abordaremos diversos aspectos de la inteligenc
 * Iniciaremos con una breve revisión de un manuscrito recientemente publicado que examina el rol del radiólogo en el contexto del aprendizaje automático.
 * Exploraremos el uso de un chatbot, sin necesidad de crear una cuenta, o, si lo preferimos, podremos crear una cuenta gratuita. Esto nos permitirá observar cómo un médico podría utilizar un modelo de lenguaje grande (LLM) y presentaremos también los riesgos asociados.
 * A continuación, practicaremos la búsqueda de literatura científica relacionada con nuestros intereses, con el fin de familiarizarnos mejor con los términos de búsqueda y el vocabulario técnico en inglés, dado que este idioma predomina en la prensa científica.
-* Nos familiarizaremos con catálogos de modelos preentrenados para identificar algunas tareas son adecuadas para el aprendizaje profundo.
-* Además, aprenderemos a manejar Google Colab y a escribir código, comenzando con una tarea de aprendizaje automático "tradicional" y avanzando hacia el uso de un modelo de aprendizaje profundo.
+* Nos familiarizaremos con catálogos de modelos pre-entrenados para identificar algunas tareas son adecuadas para el aprendizaje profundo.
+* Además, aprenderemos a manejar Google Colab y a escribir código, entrenando y probando la eficacia de varios modelos de aprendizaje automático y explicándoles.
 
 Al finalizar estos talleres, los participantes habrán ganado mayor confianza en:
 
@@ -136,7 +136,7 @@ ChatGPT es un ejemplo de un modelo de lenguaje grande utilizado como **agente co
 
 Menciono ChatGPT  aquí, no porque sea el mejor de los grandes modelos de lenguaje, sino porque su interfaz es sencilla y accesible para principiantes.
 
-**Aviso: Es posible que los servicios para quienes no son titulares de cuentas sean lentos o estén limitados.  En tal situación, o si prefiere guardar los chats para referir a ellos más adelante, es fácil crear una cuenta gratuita usando las opciones "Subscríbete" en la esquina superior derecha.**
+**Aviso: Es posible que los servicios para quienes no son titulares de cuentas sean lentos o estén limitados.  En tal situación, o si prefiere guardar los chats para referir a ellos más adelante, es fácil crear una cuenta gratuita usando la opcion "Subscríbete" en la esquina superior derecha.**
 
 Para "conversar", solo hay que escribir un prompt en la caja que dice "Envía un mensaje a ChatGPT."  Sin embargo, antes de ingresar un prompt, es importante comprender que sucederá con los información trasmitida.
 
@@ -257,17 +257,18 @@ Comience haciendo clic en [este ejemplo preparado previamente](https://pubmed.nc
 
 Muchos de estos artículos están disponibles solo mediante pago. Si un manuscrito es disponible de modo gratuito, la página de aquel manuscrito tendrá un botón como el siguiente:
 
-![](media/texto_gratis.png)
+![](media/texto_gratis.png)<!-- style = "border: 1px solid"-->
 
 Si encuentra dificultades para acceder a estos recursos, una estrategia eficaz es buscar la dirección de correo electrónico de uno de los autores, expresar su interés en leer el artículo, y solicitar si pueden enviarle un archivo .pdf.
 
 Para el siguiente ejercico, identifica desde la búsqueda de PubMed algunos manuscritos que:
 
 1) Le interesan por su contenido o tema 
+
 2) Tienen uno de:
 
-  -  "Free Full Text" (texto completo gratuito) o 
-  -  Un resumen / abstract muy completo que describe algo sobre el uso de IA o aprendizaje automático.  
+-  "Free Full Text" (texto completo gratuito) o 
+-  Un resumen / abstract muy completo que describe algo sobre el uso de IA o aprendizaje automático.  
 
 En el siguiente ejercicio, buscará términos en estos manuscritos que tienen que ver con IA y aprendizaje automático.  Términos que suelen aparecer incluyen: "machine learning," "deep learning", "neural network", "artificial intelligence", "AI".
 
@@ -276,22 +277,58 @@ En el siguiente ejercicio, buscará términos en estos manuscritos que tienen qu
 
 Un artículo (o incluso a veces solo el resumen) que describa una investigación basada en la IA o el aprendizaje automático  probablemente incluirá información sobre la tarea que realiza el modelo, los datos empleados, detalles sobre el propio modelo, entre otros aspectos.
 
+Muchas veces, los manuscritos describen tareas de aprendizaje automático en las que los autores entrenaron nuevos modelos en pequeños conjuntos de datos privados que pertenecen a un hospital o laboratorio. Pueden describir las bibliotecas que utilizaron para realizar este trabajo, como `caret` de R o `sklearn` de Python. Ocasionalmente, se verá a los autores usando modelos grandes y preentrenados, en particular para trabajos con lenguaje o imágenes. En este caso, usarán un modelo que fue entrenado en una amplia variedad de datos, y podrían hacer un 'ajuste fino' del modelo de propósito general para que funcione mejor en sus datos especificos.
+
 Intente identificar en los artículos que eligió: la tarea realizada, el tipo de modelo utilizado y cualquier otro detalle relevante que pueda percibir.
 
 A continuación, hemos incluido algunos términos en inglés y español para facilitar este ejercicio.
 
-* **La tarea de IA o aprendizaje automático:** classification/clasificación, regression/regresión, language generation/ generación de lenguaje, image generation/generación de imágenes, computer vision/visión por computadora, natural language processing/procesamiento del lenguaje natural, etc.
+* **La tarea de IA o aprendizaje automático:** classification/clasificación, regression/regresión, clustering/agrupamiento, language generation/generación de lenguaje, image generation/generación de imágenes, computer vision/visión por computadora, natural language processing/procesamiento del lenguaje natural, etc.
 * **El tipo específico de modelo:** support vector machine/máquina de soporte vectorial, random forest/bosque aleatorio, large language model/modelo de lenguaje grande, logistic regression/regresión logística, hierarchical clustering/agrupamiento jerárquico, etc.
-* **Métricas utilizadas para evaluar la eficacia del modelo:**: Accuracy/exactitud, precision/precisión, recall o sensitivity/sensibilidad, specificity / especificidad, area under the curve (AUC) /  área bajo la curva, F1, balanced accuracy, precisión balanceada, etc.
+* **Métricas das para evaluar la eficacia del modelo:** Accuracy/exactitud, precision/precisión, recall o sensitivity/sensibilidad, specificity / especificidad, area under the curve (AUC) /  área bajo la curva, F1, balanced accuracy, precisión balanceada, etc.
 
 **Preguntas:**
 
 * ¿Qúe tarea realiza el modelo?  ¿Sobre qúe tipo de datos?
 * ¿Ha identificado algunos términos sobre el tipo de modelo?
 
+## Algoritmos de Aprendizaje Automático
+
+Luego, vamos a entrenar un modelo sobre datos que tratan del cancer de mama, y vamos a utilizar la biblioteca de Python llamada `sklearn`.  Este conjunto de herramientas es muy util y ofrece muchos algoritmos de aprendizaje. 
+
+![](media/sklearn.png)<!-- style = "border: 1px solid"-->
+
+La mayoría del aprendizaje automático se lleva a cabo usando el lenguaje Python.  Sin embargo, si ya sabe R y prefiere trabajar en este lenguaje, es posible hace aprendizaje automático usando el paquete `caret`.
+
+![](media/caret.png)<!-- style = "border: 1px solid"-->
+
+### Ejercicio práctico: Buscar algoritmos de interés
+
+sklearn
+----
+
+Aceda a https://scikit-learn.org/stable/auto_examples/index.html para ver algunos ejemplos de como se usa `sklearn`.  
+
+Luego, en la caja de búsqueda, busque algunos de los términos que encontró en los artículos de PubMed.  
+
+Por ejemplo, tras leer algo sobre "unsupervised learning" en el resumen de un manuscrito en PubMed, uno podría encontrar información entre los documentación de sklearn:
+
+![](media/unsupervised_learning.png)<!-- style = "border: 1px solid"-->
+
+caret (optativa, si prefiere R más que Python)
+-----
+
+Utilice la búsqueda en [https://topepo.github.io/caret/available-models.html](https://topepo.github.io/caret/available-models.html) para ver aprender más sobre los tipos de modelos que se puede crear en `caret`.
+
+Por ejemplo, hay varios metodos para crear un modelo que usa un algoritmo de "random forest":
+
+![](media/random_forest.png)<!-- style = "border: 1px solid"-->
+
 ## Catalogos de Modelos Previamente Entrenados
 
 Para tener una idea de la amplitud de tareas que la inteligencia artificial puede realizar, resulta útil explorar un catálogo de modelos previamente entrenados. [Hugging Face](https://huggingface.co/) ofrece un catálogo de código abierto y basado en la comunidad, que incluye modelos de aprendizaje profundo (deep learning), conjuntos de datos y código compartido por científicos de datos e investigadores de diversas industrias. Hasta donde he podido verificar, Hugging Face no cuenta con un sitio web en español, pero su plataforma es muy completa, si no le importa navegar en inglés.  Su lema es "democratizar la inteligencia artificial."
+
+![](media/hugging_face.png)<!-- style = "border: 1px solid"-->
 
 Puede leer más sobre Hugging Face en español a través de un [artículo sobre el uso de sus Transformers](https://learn.microsoft.com/es-es/azure/databricks/machine-learning/train-model/huggingface/), o en [un sencillo guia a su interfaz](https://keepcoding.io/blog/que-es-hugging-face/).
 
