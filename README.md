@@ -146,7 +146,7 @@ Lea la política de privacidad, en [https://openai.com/es-US/policies/privacy-po
 
 Debido a que muchos chatbot (incluido ChatGPT) almacenan los **prompts** (los mensajes que ingresa el usuario) y los datos de los usuarios y las utilizan para refinar aún más sus modelos, es posible que la información que envíe en un chat pueda crear un peligro de información futuro a través de un incidente de filtración de información. Por este motivo, **nunca debe proporcionar información privada en un mensaje de chat**, incluida información de identificación personal, información sobre pacientes o participantes en investigaciones, secretos comerciales, etc.
 
-**Si desea utilizar un LLM como herramienta en el ámbito de la investigación o la medicina, debe utilizar un LLM local (como Llama, que se distribuye de forma gratuita y puede ser implementado dentro del sistema informático de su organización).**
+**Si desea utilizar un LLM como herramienta en el ámbito de la investigación o la medicina, debe utilizar un LLM local (como Llama, BERT, y otros que se distribuyen de forma gratuita y pueden ser implementado dentro del sistema informático de su organización).**
 
 También es recomendable leer los Términos y Condiciones en [https://openai.com/es-US/policies/terms-of-use/](https://openai.com/es-US/policies/terms-of-use/).  En éste documento, se lee, entre otras cosas, lo siguiente:
 
@@ -217,7 +217,7 @@ Prompt: Traduzca la frase "Se le compensará por su tiempo con una tarjeta de re
 
 Tenga en cuenta que todo lo que se genere utilizando un LLM no tiene garantía de precisión, por lo que es su responsabilidad validar la exactitud de los resultados proporcionados por la IA.
 
-Además, tenga en cuenta que algunas publicaciones prohíben expresamente el uso de LLM para contribuir con lenguaje a manuscritos. No cumplir con estas restricciones puede tener consecuencias profesionales serias y desagradables.
+Además, tenga en cuenta que algunas publicaciones prohíben expresamente el uso de LLM para contribuir con lenguaje a manuscritos o tienen políticas sobre la divulgación del uso de IA en cuanto al manuscrito, código, o imagenes. No cumplir con estas restricciones puede tener consecuencias profesionales serias y desagradables.
 
 
 ## IA y Aprendizaje Automático en Medicina: Manuscritos
@@ -277,7 +277,9 @@ En el siguiente ejercicio, buscará términos en estos manuscritos que tienen qu
 
 Un artículo (o incluso a veces solo el resumen) que describa una investigación basada en la IA o el aprendizaje automático  probablemente incluirá información sobre la tarea que realiza el modelo, los datos empleados, detalles sobre el propio modelo, entre otros aspectos.
 
-Muchas veces, los manuscritos describen tareas de aprendizaje automático en las que los autores entrenaron nuevos modelos en pequeños conjuntos de datos privados que pertenecen a un hospital o laboratorio. Pueden describir las bibliotecas que utilizaron para realizar este trabajo, como `caret` de R o `sklearn` de Python. Ocasionalmente, se verá a los autores usando modelos grandes y preentrenados, en particular para trabajos con lenguaje o imágenes. En este caso, usarán un modelo que fue entrenado en una amplia variedad de datos, y podrían hacer un 'ajuste fino' del modelo de propósito general para que funcione mejor en sus datos especificos.
+Muchas veces, los manuscritos describen tareas de aprendizaje automático en las que los autores entrenaron nuevos modelos en pequeños conjuntos de datos privados que pertenecen a un hospital o laboratorio. Pueden describir las bibliotecas que utilizaron para realizar este trabajo, como `caret` de R o `sklearn` de Python. Ocasionalmente, se verá a los autores usando modelos grandes y preentrenados, en particular para trabajos con lenguaje o imágenes. En este caso, usarán un modelo que fue entrenado en una amplia variedad de datos, y podrían usarlo tal como es o hacer un 'ajuste fino' del modelo de propósito general para que funcione mejor en sus datos especificos.
+
+![](media/abstract.png)
 
 Intente identificar en los artículos que eligió: la tarea realizada, el tipo de modelo utilizado y cualquier otro detalle relevante que pueda percibir.
 
@@ -348,19 +350,17 @@ Trate de responder las siguientes preguntas:
 
 ## Notebooks / Cuadernos de Colab
 
-¿Qué es un **cuaderno Colab** de Google? Es un servicio alojado de Jupyter Notebook que no requiere configuración y que ofrece acceso gratuito a recursos de computación.
+¿Qué es un **cuaderno Colab** (Colab Notebook) de Google? Es un servicio alojado de Jupyter Notebook que no requiere configuración y que ofrece acceso gratuito a recursos de computación.
 
-¿Y qué, entonces, es **Jupyter Notebook**?  Es un programa que facilita la creacion de scripts de analisis de datos en las cuales cada paso que tomas es grabado cuidadosamente.  Es una forma de "[programación estadistica literaria](https://es.wikipedia.org/wiki/Programaci%C3%B3n_literaria)," donde no solo recuerdas los pasos tecnicos que haces (la programación estadistica que haces en lenguajes como **Ju**lia, **Pyt**hon, o **R** -- nota que estos tres lenguajes forman "Jupyter") sino tambien escribas en sus proprias palabras que vas a hacer y por que.
+¿Y qué, entonces, es **Jupyter Notebook**?  Es un programa que facilita la creación de scripts de analisis de datos en las cuales cada paso que tomas es grabado cuidadosamente.  Es una forma de "[programación estadistica literaria](https://es.wikipedia.org/wiki/Programaci%C3%B3n_literaria)," donde no solo recuerdas los pasos tecnicos que hace (la programación estadistica que hace en lenguajes como **Ju**lia, **Pyt**hon, o **R** -- nota que estos tres lenguajes forman "Jupyter") sino tambien escribas en sus proprias palabras que vas a hacer y por que.
 
-Por ejemplo, esta misma "celda" que estas leyendo ahora es un "celda" textual donde escribo yo no en Python u otra lenguaje de programacion, sino en castellano, como si fuera un documento Word.
+Los cuadernos provienen del mundo de los laboratorios y la practica de notar cada paso, cada ingrediente y cada accion en un experimento.  Y siguen siendo utiles para la replicabilidad hoy en dia, en el ambito de los analises de datos.
 
-Los cuadernos provienen del mundo de los laboratorios y la practica de notar cada paso, cada reagent, cada ingrediente y accion en un experimento.  Y siguen siendo utiles para la replicabilidad hoy en dia, en el ambito de los analises de datos.
+Los cuadernos de Jupyter son usados en todo el mundo, por muchos ambitos como la medicina, fisica, matematicas, negocios, y mucho mas.  De hecho, puedes buscar "cuaderno jupyter ejemplo radiologia" o "cuaderno colab ejemplo radiologia" o semejantes búsquedas, para encontrar cuadernos escritos y compartidos por otros.  Puede ser que encontraría más buscando en inglés, pero aun en castellano encontrará muchos ejemplos.
 
-Los cuadernos de Jupyter son usados en todo el mundo, por muchos ambitos como la medicina, fisica, matematicas, negocios, entretenimiento, y mucho mas.  De hecho, puedes buscar "cuaderno jupyter ejemplo radiologia" o "cuaderno colab ejemplo radiologia" o semejantes búsquedas, para encontrar cuadernos escritos y compartidos por otros.  Puede ser que encontrarias mas buscando en inglés, pero aun en castellano encontrarás muchos ejemplos.
+Cuando crea un cuaderno en Google Colab, no tiene que utilizar las capacidades de su propio ordenador para llevar a cabo sus analises.  Esto significa que puede aprovechar de estos cuadernos aun desde un ordenador con pocas fuerzas, como un Chromebook.  
 
-Cuando creas un cuaderno en Google Colab, no tienes que utilizar las capacidades de tu propio ordenador para llevar a cabo tus analises.  Esto significa que puedes aprovechar de estos cuadernos aun desde un ordenador con pocas fuerzas, como un Chromebook.  
-
-Además, con Colab, no tienes que instalar Jupyter Notebook, ni Python -- !con solo tener una cuenta de Google (y ya la tienes si tienes un correo Gmail), puedes usar este servicio gratuito!
+Además, con Colab, no tiene que instalar Jupyter Notebook, ni Python -- ¡con solo tener una cuenta de Google (y ya la tiene si tiene un correo Gmail), puede usar este servicio gratuito!
 
 Para leer más, ve a https://research.google.com/colaboratory/intl/es/faq.html.
 
@@ -368,12 +368,27 @@ Para leer más, ve a https://research.google.com/colaboratory/intl/es/faq.html.
 
 **Necesitarás lo siguiente para empezar:**
 
+Trabajaremos con este cuaderno juntos como parte del taller.
+
+
 * Una computadora que te permita acceder a https://colab.research.google.com (algunas organizaciones bloquean los sitios de Google, por lo que tal vez necesites una computadora personal y no una de la empresa).  
 
 Pasos:
 
 * Acede a https://colab.research.google.com/drive/1TPNM_vuI_aG0l1f0cUKZH7scDVH6Lvmh?hl=es#scrollTo=g6x9ru9GivN6.
 * Si ya tiene cuenta de Google (i.e. una cuenta de gmail), inicie una sesión en Google si aún no lo han hecho.  Si no tienes cuenta de Google, apuntese para poder proceder con el taller.  Esto es el "Paso 1".
-* Haga una copia del cuaderno para que tenga una copia propia.  Esto es el "Paso 2".
-* Por fin, haga un doble clic para ver Markdown y como algunos símbolos como `#`, `*`, `\``, y `[texto](vinculo)` pueden cambiar la apariencia del texto.
+* Haga una copia del cuaderno para que tenga una copia propia.  Esto es el "Paso 2".  
+* Por fin, haga un doble clic en una de las celdas para ver el Markdown y como algunos símbolos como `#`, `*`, `\``, y `[texto](vinculo)` pueden cambiar la apariencia del texto.
+
+### Ejercicio práctico: Llevar a cabo un ejercico de aprendizaje automático
+
+Trabajaremos con este cuaderno juntos como parte del taller.
+
+Pasos:
+
+* Acede a https://colab.research.google.com/drive/1nOjETWZYIveJRXgl04KWcDy4LUzrDS05.
+* Haga una copia del cuaderno para que tenga una copia propia.  Esto es el "Paso 2".  
+* Lea las celdas de texto hasta que llegue a "Instalar Paquete de Python".  Allí encontrará la primera celda de código.
+* Ejecute la celda de código: Haga click en ella y luego en el botón "Play".
+* Siga así, leyendo y ejecutando las celdas.  Habrá unas celdas de código que tendrá que completar como ejercicio.
 
