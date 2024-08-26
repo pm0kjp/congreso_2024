@@ -14,12 +14,18 @@ Este documento ha sido escrito para acompañar dos talleres impartidos por Joy P
 
 Por favor, comparta estos materiales como considere más conveniente.
 
+Accede a este documento:
+-----
+
+https://bit.ly/congreso_2024
+![](media/bit.ly_congreso_2024.png)<!-- style = "border: 1px solid rgb(var(--color-highlight)); max-width:50%;"-->
+
 -------
 
 LiaScript 
 -----
 
-El documento que está leyendo está alojado en GitHub, pero se visualiza de manera óptima como un curso interactivo en LiaScript.
+El documento que está leyendo, escrito en Markdown, está alojado en GitHub, pero se visualiza de manera óptima como un curso interactivo en LiaScript.
 
 Si está leyendo esto dentro de GitHub y prefiere verlo como un documento interactivo de LiaScript, haga clic en el siguiente enlace:
 
@@ -176,6 +182,7 @@ Si lo desea, pruebe con otros prompts que le puedan ayudar a planificar y estruc
 Utilice los LLM para resumir textos o abordar temas clave.
 
 Prompt: "Resuma los puntos principales de 'Energy and Policy Considerations for Deep Learning in NLP' de Strubell".
+**Prompt:** "Resuma los puntos principales de 'Energy and Policy Considerations for Deep Learning in NLP' de Strubell".
 
 Es importante tener precaución al utilizar LLM para resumir textos, ya que estos modelos pueden "alucinar", es decir, generar información incorrecta o inventada. Trate estos resúmenes como si provinieran de un miembro junior de su equipo: ¡es crucial revisar su trabajo antes de confiar plenamente en él!
 
@@ -189,7 +196,7 @@ Es importante tener precaución al utilizar LLM para resumir textos, ya que esto
 
 Este caso de uso debe manejarse con precaución, evitando la transmisión de datos reales. Con la divulgación adecuada y la verificación de la precisión, los investigadores biomédicos podrían utilizar los LLM para generar borradores iniciales de ciertos textos.
 
-Prompt: "Escriba una breve carta de recomendación para mi asistente de investigación Fulana de Tal, quien hizo un excelente trabajo con sujetos humanos en la investigación del autismo".
+**Prompt:** "Escriba una breve carta de recomendación para mi asistente de investigación Fulana de Tal, quien hizo un excelente trabajo con sujetos humanos en la investigación del autismo".
 
 **Preguntas:**
 
@@ -200,7 +207,7 @@ Prompt: "Escriba una breve carta de recomendación para mi asistente de investig
 
 Subrayamos de nuevo: ésta es un área en la que los usuarios deben tener especial cuidado. Evite divulgar de manera inadvertida datos sensibles, descripciones estadísticas de sus datos, esquemas de bases de datos u otra información potencialmente confidencial.
 
-Prompt: "Usando el código R de tidyverse, escriba un código que tomará una columna de marco de datos llamada 'id' y la dividirá en dos columnas llamadas 'id\_paciente' y 'numero\_muestra'. Los datos en la columna 'id' tienen estos dos valores separados por un guión bajo."
+**Prompt:** "Usando el código R de tidyverse, escriba un código que tomará una columna de marco de datos llamada 'id' y la dividirá en dos columnas llamadas 'id\_paciente' y 'numero\_muestra'. Los datos en la columna 'id' tienen estos dos valores separados por un guión bajo."
 
 **Preguntas:**
 
@@ -211,7 +218,7 @@ Prompt: "Usando el código R de tidyverse, escriba un código que tomará una co
 
 Considere las políticas de su institución respecto a la traducción y determine si la regulación aplicable permite el uso de herramientas de traducción basadas en IA. Las traducciones generadas por IA deben tratarse como borradores que **siempre** deben ser revisados y validados por profesionales.
 
-Prompt: Traduzca la frase "Se le compensará por su tiempo con una tarjeta de regalo por valor de $10 cada vez que se presente en su visita programada al laboratorio y complete un EEG" al inglés.
+**Prompt:** Traduzca la frase "Se le compensará por su tiempo con una tarjeta de regalo por valor de $10 cada vez que se presente en su visita programada al laboratorio y complete un EEG" al inglés.
 
 ### Nota importante
 
@@ -224,7 +231,7 @@ Además, tenga en cuenta que algunas publicaciones prohíben expresamente el uso
 
 El número de manuscritos en el ámbito de medicina que mencionan IA o aprendezaje automatico sigue aumentando cada año.  [PubMed](https://pubmed.ncbi.nlm.nih.gov/), el catálogo de la [Biblioteca Nacional de Medicina (NLM) de los Estados Unidos](https://www.usa.gov/es/agencias/biblioteca-nacional-de-medicina) y el catálogo más grande de medicina en el mundo, enumera más que 45.000 articulos publicados en 2023 con el termino "artificial intelligence" o "machine learning", [con más que 200.000 resultados en total](https://pubmed.ncbi.nlm.nih.gov/?term=%28%22artificial+intelligence%22%29+OR+%28%22machine+learning%22%29&sort=pubdate).  
 
-![Gráfico de barras que muestra un número creciente de artículos a lo largo de varias décadas.](media/articulos.png)
+![Gráfico de barras que muestra un número creciente de artículos a lo largo de varias décadas.](media/articulos.png)<!-- style = "border: 1px solid rgb(var(--color-highlight));"-->
 
 Si añadimos "radiology" como término de búsqueda, hay casi 15.000 artículos en total, con más de 3.000 publicados en 2023.
 
@@ -257,7 +264,7 @@ Comience haciendo clic en [este ejemplo preparado previamente](https://pubmed.nc
 
 Muchos de estos artículos están disponibles solo mediante pago. Si un manuscrito es disponible de modo gratuito, la página de aquel manuscrito tendrá un botón como el siguiente:
 
-![](media/texto_gratis.png)<!-- style = "border: 1px solid"-->
+![](media/texto_gratis.png)<!-- style = "border: 1px solid rgb(var(--color-highlight));"-->
 
 Si encuentra dificultades para acceder a estos recursos, una estrategia eficaz es buscar la dirección de correo electrónico de uno de los autores, expresar su interés en leer el artículo, y solicitar si pueden enviarle un archivo .pdf.
 
@@ -287,7 +294,7 @@ A continuación, hemos incluido algunos términos en inglés y español para fac
 
 * **La tarea de IA o aprendizaje automático:** classification/clasificación, regression/regresión, clustering/agrupamiento, language generation/generación de lenguaje, image generation/generación de imágenes, computer vision/visión por computadora, natural language processing/procesamiento del lenguaje natural, etc.
 * **El tipo específico de modelo:** support vector machine/máquina de soporte vectorial, random forest/bosque aleatorio, large language model/modelo de lenguaje grande, logistic regression/regresión logística, hierarchical clustering/agrupamiento jerárquico, etc.
-* **Métricas das para evaluar la eficacia del modelo:** Accuracy/exactitud, precision/precisión, recall o sensitivity/sensibilidad, specificity / especificidad, area under the curve (AUC) /  área bajo la curva, F1, balanced accuracy, precisión balanceada, etc.
+* **Métricas das para evaluar la eficacia del modelo:** Accuracy/exactitud, precision/precisión, recall o sensitivity/sensibilidad, specificity / especificidad, area under the curve (AUC) /  área bajo la curva, F1, balanced accuracy/precisión balanceada, etc.  Para entender más sobre estas métricas, lea [un articulo que los describe](https://profesordata.com/2020/08/07/evaluando-los-modelos-de-clasificacion-en-aprendizaje-automatico-la-matriz-de-confusion-claramente-explicada/.)
 
 **Preguntas:**
 
@@ -298,11 +305,11 @@ A continuación, hemos incluido algunos términos en inglés y español para fac
 
 Luego, vamos a entrenar un modelo sobre datos que tratan del cancer de mama, y vamos a utilizar la biblioteca de Python llamada `sklearn`.  Este conjunto de herramientas es muy util y ofrece muchos algoritmos de aprendizaje. 
 
-![](media/sklearn.png)<!-- style = "border: 1px solid"-->
+![](media/sklearn.png)<!-- style = "border: 1px solid rgb(var(--color-highlight));"-->
 
 La mayoría del aprendizaje automático se lleva a cabo usando el lenguaje Python.  Sin embargo, si ya sabe R y prefiere trabajar en este lenguaje, es posible hace aprendizaje automático usando el paquete `caret`.
 
-![](media/caret.png)<!-- style = "border: 1px solid"-->
+![](media/caret.png)<!-- style = "border: 1px solid rgb(var(--color-highlight));"-->
 
 ### Ejercicio práctico: Buscar algoritmos de interés
 
@@ -315,7 +322,7 @@ Luego, en la caja de búsqueda, busque algunos de los términos que encontró en
 
 Por ejemplo, tras leer algo sobre "unsupervised learning" en el resumen de un manuscrito en PubMed, uno podría encontrar información entre los documentación de sklearn:
 
-![](media/unsupervised_learning.png)<!-- style = "border: 1px solid"-->
+![](media/unsupervised_learning.png)<!-- style = "border: 1px solid rgb(var(--color-highlight));"-->
 
 caret (optativa, si prefiere R más que Python)
 -----
@@ -324,13 +331,13 @@ Utilice la búsqueda en [https://topepo.github.io/caret/available-models.html](h
 
 Por ejemplo, hay varios metodos para crear un modelo que usa un algoritmo de "random forest":
 
-![](media/random_forest.png)<!-- style = "border: 1px solid"-->
+![](media/random_forest.png)<!-- style = "border: 1px solid rgb(var(--color-highlight));"-->
 
 ## Catalogos de Modelos Previamente Entrenados
 
 Para tener una idea de la amplitud de tareas que la inteligencia artificial puede realizar, resulta útil explorar un catálogo de modelos previamente entrenados. [Hugging Face](https://huggingface.co/) ofrece un catálogo de código abierto y basado en la comunidad, que incluye modelos de aprendizaje profundo (deep learning), conjuntos de datos y código compartido por científicos de datos e investigadores de diversas industrias. Hasta donde he podido verificar, Hugging Face no cuenta con un sitio web en español, pero su plataforma es muy completa, si no le importa navegar en inglés.  Su lema es "democratizar la inteligencia artificial."
 
-![](media/hugging_face.png)<!-- style = "border: 1px solid"-->
+![](media/hugging_face.png)<!-- style = "border: 1px solid rgb(var(--color-highlight));"-->
 
 Puede leer más sobre Hugging Face en español a través de un [artículo sobre el uso de sus Transformers](https://learn.microsoft.com/es-es/azure/databricks/machine-learning/train-model/huggingface/), o en [un sencillo guia a su interfaz](https://keepcoding.io/blog/que-es-hugging-face/).
 
