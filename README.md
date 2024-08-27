@@ -22,8 +22,10 @@ https://bit.ly/congreso_2024
 
 -------
 
-LiaScript 
------
+## Sobre este documento 
+
+LiaScript
+------
 
 El documento que está leyendo, escrito en Markdown, está alojado en GitHub, pero se visualiza de manera óptima como un curso interactivo en LiaScript.
 
@@ -38,8 +40,7 @@ GitHub
 
 Si, por otro lado, está leyendo esto en LiaScript pero le gustaría verlo en GitHub (por ejemplo, para hacer un fork o clonar este repositorio), por favor visite [https://github.com/pm0kjp/congreso_2024](https://github.com/pm0kjp/congreso_2024). 
 
-Sobre la Autora 
-------
+## Sobre la autora 
 
 Joy Payton es una científica de datos docente y supervisora de educación en datos en el Children's Hospital of Philadelphia (CHOP), donde lidera un equipo que enseña métodos computacionales reproducibles a profesionales biomédicos con el fin de avanzar en sus investigaciones.
 
@@ -49,11 +50,20 @@ Puede contactarla a través de su LinkedIn: [https://www.linkedin.com/in/joypayt
 
 ## Taller 1:  ¿Cómo usar el aprendizaje automático?
 
-### Contenido y Objetivos
+Contenido y Objetivos
+------
 
 En el transcurso de dos talleres, abordaremos diversos aspectos de la inteligencia artificial (IA) y el aprendizaje automático. Nuestro objetivo es dotar a los participantes de la confianza necesaria para adentrarse en un campo que puede parecer abrumador, proporcionando además pasos concretos para que las ideas fundamentales detrás del aprendizaje automático y la IA generativa se perciban como algo que han experimentado, y no solo como conceptos de los que han oído hablar.
 
 En este primer taller, practicaremos un poco de aprendizaje automático. Aprenderemos a manejar Google Colab y a escribir código y Markdown, entrenando y probando la eficacia de varios modelos de aprendizaje automático y explicándoles.
+
+Al finalizar los dos talleres, los participantes habrán ganado mayor confianza en:
+
+* Comprender cómo la IA y el aprendizaje automático se integran en el ámbito de la medicina.
+* Manejar la terminología y los conceptos clave relacionados con la IA y el aprendizaje automático.
+* Identificar fuentes de información confiables.
+* Examinar y crear notebooks (cuadernos).
+* Realizar búsquedas autónomas y convertirse en autodidactas según sus propios intereses.
 
 ### Notebooks / Cuadernos de Colab
 
@@ -61,24 +71,30 @@ En este primer taller, practicaremos un poco de aprendizaje automático. Aprende
 
 ¿Y qué, entonces, es **Jupyter Notebook**?  Es un programa que facilita la creación de scripts de analisis de datos en las cuales cada paso que tomas es grabado cuidadosamente.  Es una forma de "[programación estadistica literaria](https://es.wikipedia.org/wiki/Programaci%C3%B3n_literaria)," donde no solo recuerdas los pasos tecnicos que hace (la programación estadistica que hace en lenguajes como **Ju**lia, **Pyt**hon, o **R** -- nota que estos tres lenguajes forman "Jupyter") sino tambien escribas en sus proprias palabras que vas a hacer y por que.
 
+![](media/colab_bienvenida.png)
+
 Los cuadernos provienen del mundo de los laboratorios y la practica de notar cada paso, cada ingrediente y cada accion en un experimento.  Y siguen siendo utiles para la replicabilidad hoy en dia, en el ambito de los analises de datos.
 
-Los cuadernos de Jupyter son usados en todo el mundo, por muchos ambitos como la medicina, fisica, matematicas, negocios, y mucho mas.  De hecho, puedes buscar "cuaderno jupyter ejemplo radiologia" o "cuaderno colab ejemplo radiologia" o semejantes búsquedas, para encontrar cuadernos escritos y compartidos por otros.  Puede ser que encontraría más buscando en inglés, pero aun en castellano encontrará muchos ejemplos.
+Los cuadernos de Jupyter son usados en todo el mundo, por muchos ambitos como la medicina, fisica, matematicas, negocios, y mucho mas.  De hecho, puedes buscar "cuaderno jupyter ejemplo radiologia" o "cuaderno colab ejemplo radiologia" o semejantes búsquedas, para encontrar cuadernos escritos y compartidos por otros.  
 
 Cuando crea un cuaderno en Google Colab, no tiene que utilizar las capacidades de su propio ordenador para llevar a cabo sus analises.  Esto significa que puede aprovechar de estos cuadernos aun desde un ordenador con pocas fuerzas, como un Chromebook.  
 
 Además, con Colab, no tiene que instalar Jupyter Notebook, ni Python -- ¡con solo tener una cuenta de Google (y ya la tiene si tiene un correo Gmail), puede usar este servicio gratuito!
 
+### Ejercicio práctico: Leer que dice Google
+
+Para participar en este taller, necesita una computadora que le permita acceder a https://colab.research.google.com (algunas organizaciones bloquean los sitios de Google, por lo que tal vez necesite una computadora personal y no una de la empresa). 
+
+Google ha escrito un cuaderno que explica como usar un cuaderno.  Vaya a https://colab.research.google.com y haga clic en "Cancelar" para ver un cuaderno con el titulo "Te damos la bienvenida a Colaboratory".  
+
+Sin tomar mucho tiempo, revise este documento por encima. Lo que quiero que preste atención son los dos tipos de celdas — celdas de código y celdas de texto — que componen un cuaderno, y quiero que recuerde luego que este recurso útil existe, con muchos enlaces.
+
 Para leer más, ve a https://research.google.com/colaboratory/intl/es/faq.html.
+
 
 ### Ejercicio práctico: Copiar un cuaderno
 
-**Necesitarás lo siguiente para empezar:**
-
-Trabajaremos con este cuaderno juntos como parte del taller.
-
-
-* Una computadora que te permita acceder a https://colab.research.google.com (algunas organizaciones bloquean los sitios de Google, por lo que tal vez necesites una computadora personal y no una de la empresa).  
+Trabajaremos con este cuaderno juntos como parte del taller. 
 
 Pasos:
 
@@ -110,7 +126,7 @@ En el transcurso de dos talleres, abordaremos diversos aspectos de la inteligenc
 * Nos familiarizaremos con catálogos de modelos pre-entrenados para identificar algunas tareas son adecuadas para el aprendizaje profundo.
 *  aprenderemos a manejar Google Colab y a escribir código, entrenando y probando la eficacia de varios modelos de aprendizaje automático y explicándoles.
 
-Al finalizar estos talleres, los participantes habrán ganado mayor confianza en:
+Al finalizar estos dos talleres, los participantes habrán ganado mayor confianza en:
 
 * Comprender cómo la IA y el aprendizaje automático se integran en el ámbito de la medicina.
 * Manejar la terminología y los conceptos clave relacionados con la IA y el aprendizaje automático.
