@@ -46,6 +46,8 @@ Joy Payton es una científica de datos docente y supervisora de educación en da
 
 Además de su trabajo proporcionando educación en ciencia de datos, Joy también forma parte del equipo de Informática en Salud Global en CHOP. En ese rol, aboga por enfoques de ciencia de datos que aceleren el desarrollo de un enfoque descolonizado, interdependiente y mutuamente beneficioso para la salud global. Le apasiona ayudar a los investigadores y clínicos a llevar a cabo la salud global de una manera participativa, no extractiva y no explotadora, que respete y amplifique las voces de los expertos locales, incluidos los pacientes, los miembros de la comunidad y los expertos en salud e informática.
 
+Ella y su equipo han escrito muchos documentos como ésto sobre varios temas, y pueden verlos en https://arcus.github.io/education_modules/list_of_modules. 
+
 Puede contactarla a través de su LinkedIn: [https://www.linkedin.com/in/joypayton/](https://www.linkedin.com/in/joypayton/).
 
 ## Taller 1:  ¿Cómo usar el aprendizaje automático?
@@ -91,17 +93,15 @@ Sin tomar mucho tiempo, revise este documento por encima. Lo que quiero que pres
 
 Para leer más, ve a https://research.google.com/colaboratory/intl/es/faq.html.
 
-
 ### Ejercicio práctico: Copiar un cuaderno
-
-Trabajaremos con este cuaderno juntos como parte del taller. 
 
 Pasos:
 
-* Acede a https://colab.research.google.com/drive/1TPNM_vuI_aG0l1f0cUKZH7scDVH6Lvmh?hl=es#scrollTo=g6x9ru9GivN6.
+* Acede a https://colab.research.google.com/drive/1TPNM_vuI_aG0l1f0cUKZH7scDVH6Lvmh .
+* Si abre como si fuera solo un imágen, haga clic en "Open in Google Colaboratory" que aparecerá en la parte superior de la ventana: ![](media/open_in_colab.png)<!-- style = "max-width:250px;"-->
 * Si ya tiene cuenta de Google (i.e. una cuenta de gmail), inicie una sesión en Google si aún no lo han hecho.  Si no tienes cuenta de Google, apuntese para poder proceder con el taller.  Esto es el "Paso 1".
 * Haga una copia del cuaderno para que tenga una copia propia.  Esto es el "Paso 2".  
-* Por fin, haga un doble clic en una de las celdas para ver el Markdown y como algunos símbolos como `#`, `*`, `\``, y `[texto](vinculo)` pueden cambiar la apariencia del texto.
+* Cree una celda de texto nuevo para escribir un poco de Markdown y ver como algunos símbolos como `#`, `*`, `\``, y `[texto](vinculo)` pueden cambiar la apariencia del texto.
 
 ### Ejercicio práctico: Llevar a cabo un ejercico de aprendizaje automático
 
@@ -112,7 +112,7 @@ Pasos:
 * Acede a https://colab.research.google.com/drive/1nOjETWZYIveJRXgl04KWcDy4LUzrDS05.
 * Haga una copia del cuaderno para que tenga una copia propia.  Esto es el "Paso 2".  
 * Lea las celdas de texto hasta que llegue a "Instalar Paquete de Python".  Allí encontrará la primera celda de código.
-* Ejecute la celda de código: Haga click en ella y luego en el botón "Play".
+* Ejecute la celda de código: Haga click en ella y luego en el botón "Play".  
 * Siga así, leyendo y ejecutando las celdas.  Habrá unas celdas de código que tendrá que completar como ejercicio.
 
 
