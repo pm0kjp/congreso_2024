@@ -116,6 +116,8 @@ Pasos:
 * Ejecute la celda de código: Haga click en ella y luego en el botón "Play".  
 * Siga así, leyendo y ejecutando las celdas.  Habrá unas celdas de código que tendrá que completar como ejercicio.
 
+Al final, si hay tiempo, le invito a crear un modelo por su cuenta: [https://colab.research.google.com/drive/1BWVMiJEzl1KyW5uJdr97KfjEiqtr3_xh?usp=sharing](https://colab.research.google.com/drive/1BWVMiJEzl1KyW5uJdr97KfjEiqtr3_xh?usp=sharing)
+
 
 ## Taller 2: Inteligencia artificial en pediatría: un guía para perplejos
 
