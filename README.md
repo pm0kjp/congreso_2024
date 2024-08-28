@@ -17,7 +17,8 @@ Por favor, comparta estos materiales como considere más conveniente.
 Accede a este documento:
 -----
 
-https://bit.ly/congreso_2024
+[https://bit.ly/congreso_2024](https://bit.ly/congreso_2024)
+
 ![](media/bit.ly_congreso_2024.png)<!-- style = "border: 1px solid rgb(var(--color-highlight)); max-width:50%;"-->
 
 -------
@@ -46,7 +47,7 @@ Joy Payton es una científica de datos docente y supervisora de educación en da
 
 Además de su trabajo proporcionando educación en ciencia de datos, Joy también forma parte del equipo de Informática en Salud Global en CHOP. En ese rol, aboga por enfoques de ciencia de datos que aceleren el desarrollo de un enfoque descolonizado, interdependiente y mutuamente beneficioso para la salud global. Le apasiona ayudar a los investigadores y clínicos a llevar a cabo la salud global de una manera participativa, no extractiva y no explotadora, que respete y amplifique las voces de los expertos locales, incluidos los pacientes, los miembros de la comunidad y los expertos en salud e informática.
 
-Ella y su equipo han escrito muchos documentos como ésto sobre varios temas, y pueden verlos en https://arcus.github.io/education_modules/list_of_modules. 
+Ella y su equipo han escrito muchos documentos como ésto sobre varios temas, y pueden verlos en [https://arcus.github.io/education_modules/list_of_modules](https://arcus.github.io/education_modules/list_of_modules). 
 
 Puede contactarla a través de su LinkedIn: [https://www.linkedin.com/in/joypayton/](https://www.linkedin.com/in/joypayton/).
 
@@ -85,19 +86,19 @@ Además, con Colab, no tiene que instalar Jupyter Notebook, ni Python -- ¡con s
 
 ### Ejercicio práctico: Leer que dice Google
 
-Para participar en este taller, necesita una computadora que le permita acceder a https://colab.research.google.com (algunas organizaciones bloquean los sitios de Google, por lo que tal vez necesite una computadora personal y no una de la empresa). 
+Para participar en este taller, necesita una computadora que le permita acceder a [https://colab.research.google.com](https://colab.research.google.com) (algunas organizaciones bloquean los sitios de Google, por lo que tal vez necesite una computadora personal y no una de la empresa). 
 
-Google ha escrito un cuaderno que explica como usar un cuaderno.  Vaya a https://colab.research.google.com y haga clic en "Cancelar" para ver un cuaderno con el titulo "Te damos la bienvenida a Colaboratory".  
+Google ha escrito un cuaderno que explica como usar un cuaderno.  Vaya a [https://colab.research.google.com](https://colab.research.google.com) y haga clic en "Cancelar" en la caja que aparece para ver un cuaderno con el titulo "Te damos la bienvenida a Colaboratory".  
 
 Sin tomar mucho tiempo, revise este documento por encima. Lo que quiero que preste atención son los dos tipos de celdas — celdas de código y celdas de texto — que componen un cuaderno, y quiero que recuerde luego que este recurso útil existe, con muchos enlaces.
 
-Para leer más, ve a https://research.google.com/colaboratory/intl/es/faq.html.
+Para leer más, ve a [https://research.google.com/colaboratory/intl/es/faq.html](https://research.google.com/colaboratory/intl/es/faq.html).
 
 ### Ejercicio práctico: Copiar un cuaderno
 
 Pasos:
 
-* Acede a https://colab.research.google.com/drive/1TPNM_vuI_aG0l1f0cUKZH7scDVH6Lvmh .
+* Acede a [https://colab.research.google.com/drive/1TPNM_vuI_aG0l1f0cUKZH7scDVH6Lvmh](https://colab.research.google.com/drive/1TPNM_vuI_aG0l1f0cUKZH7scDVH6Lvmh).
 * Si abre como si fuera solo un imágen, haga clic en "Open in Google Colaboratory" que aparecerá en la parte superior de la ventana: ![](media/open_in_colab.png)<!-- style = "max-width:250px;"-->
 * Si ya tiene cuenta de Google (i.e. una cuenta de gmail), inicie una sesión en Google si aún no lo han hecho.  Si no tienes cuenta de Google, apuntese para poder proceder con el taller.  Esto es el "Paso 1".
 * Haga una copia del cuaderno para que tenga una copia propia.  Esto es el "Paso 2".  
@@ -109,7 +110,7 @@ Trabajaremos con este cuaderno juntos como parte del taller.
 
 Pasos:
 
-* Acede a https://colab.research.google.com/drive/1nOjETWZYIveJRXgl04KWcDy4LUzrDS05.
+* Acede a [https://colab.research.google.com/drive/1nOjETWZYIveJRXgl04KWcDy4LUzrDS05](https://colab.research.google.com/drive/1nOjETWZYIveJRXgl04KWcDy4LUzrDS05).
 * Haga una copia del cuaderno para que tenga una copia propia.  Esto es el "Paso 2".  
 * Lea las celdas de texto hasta que llegue a "Instalar Paquete de Python".  Allí encontrará la primera celda de código.
 * Ejecute la celda de código: Haga click en ella y luego en el botón "Play".  
@@ -120,11 +121,12 @@ Pasos:
 
 En el transcurso de dos talleres, abordaremos diversos aspectos de la inteligencia artificial (IA) y el aprendizaje automático. Nuestro objetivo es dotar a los participantes de la confianza necesaria para adentrarse en un campo que puede parecer abrumador, proporcionando además pasos concretos para que las ideas fundamentales detrás del aprendizaje automático y la IA generativa se perciban como algo que han experimentado, y no solo como conceptos de los que han oído hablar.
 
+En este segundo taller, presentamos un plato de muestra:
+
 * Iniciaremos con una breve revisión de un manuscrito recientemente publicado que examina el rol del radiólogo en el contexto del aprendizaje automático.
 * Exploraremos el uso de un chatbot, sin necesidad de crear una cuenta, o, si lo preferimos, podremos crear una cuenta gratuita. Esto nos permitirá observar cómo un médico podría utilizar un modelo de lenguaje grande (LLM) y presentaremos también los riesgos asociados.
 * A continuación, practicaremos la búsqueda de literatura científica relacionada con nuestros intereses, con el fin de familiarizarnos mejor con los términos de búsqueda y el vocabulario técnico en inglés, dado que este idioma predomina en la prensa científica.
 * Nos familiarizaremos con catálogos de modelos pre-entrenados para identificar algunas tareas son adecuadas para el aprendizaje profundo.
-*  aprenderemos a manejar Google Colab y a escribir código, entrenando y probando la eficacia de varios modelos de aprendizaje automático y explicándoles.
 
 Al finalizar estos dos talleres, los participantes habrán ganado mayor confianza en:
 
@@ -142,7 +144,7 @@ Luego, en su tiempo libre, lea un manuscrito publicado recientemente que ofrezca
 
 Costa, E. D., Gaêta-Araujo, H., Carneiro, J. A., Zancan, B. A. G., Baranauskas, J. A., Macedo, A. A., & Tirapelli, C. (2024). "Development of a dental digital data set for research in artificial intelligence: The importance of labeling performed by radiologists." *Oral Surgery, Oral Medicine, Oral Pathology and Oral Radiology*, 138(1), 205–213. https://doi.org/10.1016/j.oooo.2023.12.006
 
-En este manuscrito, publicado en julio de 2024, un equipo brasileño describa la importancia de los radiologos:
+En este manuscrito, publicado en julio de 2024, un equipo brasileño describa la importancia de los médicos:
 
 > La mayoría de los modelos de IA aplicados a las imágenes médicas utilizan un conjunto de imágenes radiográficas etiquetadas para el aprendizaje supervisado, lo que implica el reconocimiento de patrones en las imágenes y el desarrollo de modelos matemáticos para realizar predicciones o tomar decisiones a partir de un nuevo conjunto de datos. 
 >
@@ -206,7 +208,7 @@ El entrenamiento de los LLM requiere una cantidad significativa de energía (lo 
 
 #### Ejercicio práctico: Acceder a ChatGPT sin cuenta 
 
-ChatGPT es un ejemplo de un modelo de lenguaje grande utilizado como **agente conversacional** (o **chatbot**).  La empresa propietaria, OpenAI, permite su uso (de manera limitada) de forma gratuita y sin necesidad de crear una cuenta en el sitio web https://chatgpt.com/.  
+ChatGPT es un ejemplo de un modelo de lenguaje grande utilizado como **agente conversacional** (o **chatbot**).  La empresa propietaria, OpenAI, permite su uso (de manera limitada) de forma gratuita y sin necesidad de crear una cuenta en el sitio web [https://chatgpt.com/](https://chatgpt.com/).  
 
 Menciono ChatGPT  aquí, no porque sea el mejor de los grandes modelos de lenguaje, sino porque su interfaz es sencilla y accesible para principiantes.
 
@@ -384,7 +386,7 @@ La mayoría del aprendizaje automático se lleva a cabo usando el lenguaje Pytho
 sklearn
 ----
 
-Aceda a https://scikit-learn.org/stable/auto_examples/index.html para ver algunos ejemplos de como se usa `sklearn`.  
+Acceda a [https://scikit-learn.org/stable/auto_examples/index.html](https://scikit-learn.org/stable/auto_examples/index.html) para ver algunos ejemplos de como se usa `sklearn`.  
 
 Luego, en la caja de búsqueda, busque algunos de los términos que encontró en los artículos de PubMed.  
 
