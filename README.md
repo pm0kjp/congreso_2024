@@ -100,6 +100,7 @@ Pasos:
 
 * Acede a [https://colab.research.google.com/drive/1TPNM_vuI_aG0l1f0cUKZH7scDVH6Lvmh](https://colab.research.google.com/drive/1TPNM_vuI_aG0l1f0cUKZH7scDVH6Lvmh).
 * Si abre como si fuera solo un imágen, haga clic en "Open in Google Colaboratory" que aparecerá en la parte superior de la ventana: ![](media/open_in_colab.png)<!-- style = "max-width:250px;"-->
+
 * Si ya tiene cuenta de Google (i.e. una cuenta de gmail), inicie una sesión en Google si aún no lo han hecho.  Si no tienes cuenta de Google, apuntese para poder proceder con el taller.  Esto es el "Paso 1".
 * Haga una copia del cuaderno para que tenga una copia propia.  Esto es el "Paso 2".  
 * Cree una celda de texto nuevo para escribir un poco de Markdown y ver como algunos símbolos como `#`, `*`, `\``, y `[texto](vinculo)` pueden cambiar la apariencia del texto.
