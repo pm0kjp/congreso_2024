@@ -4,11 +4,11 @@ author: K. Joy Payton
 email:  paytonk@chop.edu
 language: es
 narrator: Spanish Latin American Female
-title: Taller Práctico en IA y Aprendizaje Automático
+title: Talleres Practicos en IA y Aprendizaje Automático
 
 -->
 
-# Talleres Prácticos en IA y Aprendizaje Automático
+# Talleres Practicos en IA y Aprendizaje Automático
 
 Este documento ha sido escrito para acompañar dos talleres impartidos por Joy Payton en el XI Congreso "Dr. Carlos Antonio Alba Cueto", celebrado agosto 2024 en el Hospital del Niño Dr. José Renán Esquivel de Panamá.
 
